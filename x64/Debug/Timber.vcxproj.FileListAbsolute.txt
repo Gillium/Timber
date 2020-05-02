@@ -1,0 +1,2 @@
+D:\VS Projects\Timber\x64\Debug\Timber.exe
+D:\VS Projects\Timber\x64\Debug\Timber.pdb
