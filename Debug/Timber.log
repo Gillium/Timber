@@ -1,11 +1,11 @@
 ﻿  Timber.cpp
-D:\VS Projects\Timber\Timber.cpp(218,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-D:\VS Projects\Timber\Timber.cpp(222,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-D:\VS Projects\Timber\Timber.cpp(247,27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-D:\VS Projects\Timber\Timber.cpp(251,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-D:\VS Projects\Timber\Timber.cpp(274,27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-D:\VS Projects\Timber\Timber.cpp(278,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-D:\VS Projects\Timber\Timber.cpp(301,27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-D:\VS Projects\Timber\Timber.cpp(305,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-D:\VS Projects\Timber\Timber.cpp(331,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\VS Projects\Timber\Timber.cpp(249,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\VS Projects\Timber\Timber.cpp(253,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\VS Projects\Timber\Timber.cpp(278,27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\VS Projects\Timber\Timber.cpp(282,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\VS Projects\Timber\Timber.cpp(305,27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\VS Projects\Timber\Timber.cpp(309,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\VS Projects\Timber\Timber.cpp(332,27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\VS Projects\Timber\Timber.cpp(336,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\VS Projects\Timber\Timber.cpp(362,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
   Timber.vcxproj -> D:\VS Projects\Timber\Debug\Timber.exe
