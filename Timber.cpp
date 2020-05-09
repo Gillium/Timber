@@ -187,6 +187,9 @@ int main()
 	float logSpeedX = 1000;
 	float logSpeedY = -1500;
 
+	// Control the player input
+	bool acceptInput = false;
+
 	while (window.isOpen())
 	{
 		/*
@@ -207,6 +210,21 @@ int main()
 			// Reset the time and the score
 			score = 0;
 			timeRemaining = 6;
+
+			// Make all the branches disappear -
+			// starting in teh second position
+			for (int i = 0; i < NUM_BRANCHES; i++)
+			{
+				branchPositions[i] = side::NONE;
+			}
+
+			// Make sure the gravestone is hidden
+			spriteRIP.setPosition(675, 2000);
+
+			// Move the player into position
+			spritePlayer.setPosition(580, 720);
+
+			acceptInput = true;
 		}
 
 		/*
