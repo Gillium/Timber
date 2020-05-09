@@ -634,6 +634,7 @@ void updateBranches(int seed)
 		break;
 	case 1:
 		branchPositions[0] = side::RIGHT;
+		break;
 	default:
 		branchPositions[0] = side::NONE;
 		break;
