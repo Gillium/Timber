@@ -227,6 +227,40 @@ int main()
 			acceptInput = true;
 		}
 
+		// Wrap the player controls to
+		// Make sure we are accepting input
+		if (acceptInput)
+		{
+			// More code here next...
+
+			// First handle pressing the right cursor key
+			if (Keyboard::isKeyPressed(Keyboard::Right))
+			{
+				playerSide = side::RIGHT;
+				score++;
+
+				// Add to the amount of time remaining
+				timeRemaining += (2 / score) + .15;
+
+				spriteAxe.setPosition(AXE_POSITION_RIGHT, spriteAxe.getPosition().y);
+
+				spritePlayer.setPosition(1200, 720);
+
+				// Update the branches
+				updateBranches(score);
+
+				// Set the log flying to the left
+				spriteLog.setPosition(810, 720);
+				logSpeedX = -5000;
+				logActive = true;
+
+				acceptInput = false;
+			}
+
+			// Handle the left cursor key
+
+		}
+
 		/*
 		***************************************
 		Update the scene
