@@ -472,9 +472,16 @@ int main()
 			}
 
 			// Update the score text
-			std::stringstream ss;
-			ss << "Score = " << score;
-			scoreText.setString(ss.str());
+			// ENHANCED TO SPEED UP CODE...RUNS ONLY WHEN EITHER OF THESE KEYS IS PRESSED
+			if ((Keyboard::isKeyPressed(Keyboard::Return)) ||
+				(Keyboard::isKeyPressed(Keyboard::Left)) ||
+				(Keyboard::isKeyPressed(Keyboard::Right)))
+			{
+
+				std::stringstream ss;
+				ss << "Score = " << score;
+				scoreText.setString(ss.str());
+			}
 
 			// Update the branch sprites
 			for (int i = 0; i < NUM_BRANCHES; i++)
